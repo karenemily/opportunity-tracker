@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Opportunity Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Opportunity Tracker</h1>
+    <p class="subtitle">Never miss a deadline again</p>
+
+    <div class="form-card">
+      <h2>Add New Opportunity</h2>
+
+      <label>Link to opportunity</label>
+      <input type="url" id="url" placeholder="Paste the link here" />
+
+      <label>Title</label>
+      <input type="text" id="title" placeholder="e.g. Google Summer Internship" />
+
+      <label>Deadline (if you know it)</label>
+      <input type="date" id="deadline" />
+
+      <label>Early reminder (days before deadline)</label>
+      <input type="number" id="earlyReminder" placeholder="e.g. 7 for one week early" />
+
+      <button id="addBtn">Add Opportunity</button>
+      <p id="message"></p>
+    </div>
+
+    <div class="opportunities">
+      <h2>Your Opportunities</h2>
+      <div id="list"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
