@@ -23,7 +23,7 @@ A full stack web app that helps you track opportunities like internships, jobs, 
 
 1. Clone the repo
 ```bash
-   git clone https://github.com/YOURUSERNAME/opportunity-tracker.git
+   git clone https://github.com/karenemily/opportunity-tracker.git
 ```
 2. Install dependencies
 ```bash
